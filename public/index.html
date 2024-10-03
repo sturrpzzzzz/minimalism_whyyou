@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <div class="wrapper">
+    <button id="whyyou" onclick="hideCover()"> WHY YOU?</button>
+    <div id="knot1">
+      <p class="story" id="story1">
+        Rain starts pouring.<br /><br />
+
+        "Why me", said Annie, "Why does it start pouring as soon as I walk
+        outside?".<br />
+        "Why me", said Ben, "Why am I picked to answer the hardest question in
+        class?".<br />
+        "Why me", said Alice, "Why is my mum yelling at me?".<br />
+        "Why me", said I, "Why am I not as pretty as the other girls?".<br />
+      </p>
+      <button class="option" id="option1" onclick="hideKnot1()">
+        Wake up.
+      </button>
+    </div>
+
+    <div id="knot2">
+      <p class="story" id="story2">
+        Rain starts pouring again.<br /><br />
+
+        "Why me", said Annie, "Why does it start pouring as soon as I walk
+        outside again?".<br />
+        "Why me", said Ben, "Why am I picked to answer the hardest question in
+        class again?".<br />
+        "Why me", said Alice, "Why is my mum yelling at me again?".<br />
+        "Why me", said I, "Why do I have to suffer from so many family
+        issues?".<br />
+      </p>
+      <button class="option" id="option2" onclick="hideKnot2()">
+        Wake up again.
+      </button>
+    </div>
+
+    <div id="knot3">
+      <p class="story" id="story3">
+        Rain starts pouring again and again.<br /><br />
+
+        "Why me", said Annie, "Why does it start pouring as soon as I walk
+        outside again and again?".<br />
+        "Why me", said Ben, "Why am I picked to answer the hardest question in
+        class again and again?".<br />
+        "Why me", said Alice, "Why is my mum yelling at me again and again?".<br />
+        "Why me", said I, "Why am I inadequate and never chosen?".<br />
+      </p>
+      <button class="option" id="option3" onclick="hideKnot3()">
+        Wake up again and again.
+      </button>
+    </div>
+
+    <div id="knot4">
+      <p class="story" id="story4">
+        The sun is shining.<br /><br />
+
+        "Why me", said Annie, "Why does it have to be so hot and sunny as soon
+        as I walk outside? Can't the weather be nice for once?".<br />
+        "Why me", said Ben, "Why am I always picked to answer the hardest
+        questions in class? Does the teacher have something against me?".<br />
+        "Why me", said Alice, "Why is my mum always yelling at me? I wish I had
+        a different mum.".<br />
+        "Why me", said I, "I wish I wasn't me.".<br />
+      </p>
+      <button class="option" id="option4" onclick="hideKnot4()">
+        Wake up again and again and again.
+      </button>
+    </div>
+
+    <div id="knot5">
+      <p class="story" id="story5">
+        Rain starts pouring again and again and again.<br /><br />
+
+        "Why me", said Annie, Ben, Alice, and I, again and again and and again
+        and and again and and again and and again and and again and and again
+        and and again and and again and and again and and again and and again
+        and and again and and again and and again and and again and and again
+        and and again and and again and and again and and again and and again
+        and and again and again.<br />
+      </p>
+      <button class="option" id="option5" onclick="hideKnot5()">Again.</button>
+    </div>
+
+    <div id="knot6">
+      <p class="story" id="story6">
+        The rain never stopped pouring.<br /><br />
+
+        They never saw the sun again.<br /><br />
+      </p>
+      <button class="option" id="option6" onclick="hideKnot6()">
+        Try again.
+      </button>
+    </div>
+
+    <div id="knot7">
+      <p class="story" id="story7">
+        Rain starts pouring.<br /><br />
+
+        "Why me", said Annie, "Why does it start pouring as soon as I walk
+        outside?".<br />
+        "Why me", said Ben, "Why am I picked to answer the hardest question in
+        class?".<br />
+        "Why me", said Alice, "Why is my mum yelling at me?".<br />
+        "Why me", said I, "Why am I not as pretty as the other girls?".<br />
+      </p>
+      <button class="option" id="option7a" onclick="hideKnot7a()">
+        Wake up.
+      </button>
+      <button class="option" id="option7b" onclick="hideKnot7b()">
+        Again?
+      </button>
+    </div>
+
+    <div id="knot8">
+      <p class="story" id="story8">
+        Rain starts pouring again.<br /><br />
+
+        "Not again", said Annie, Ben, Alice, and I, "I'm sick of living under
+        the rain again and again and again.".<br />
+      </p>
+      <button class="option" id="option8" onclick="hideKnot8()">
+        Not again.
+      </button>
+    </div>
+
+    <div id="knot9">
+      <p class="story" id="story9">
+        Rain starts pouring. Not again.<br /><br />
+
+        Annie takes a deep breathe in. The rain brings about such a refreshing,
+        earthy scent to the atmosphere. She can hear kids running around,
+        laughing and shouting. "I love the rain!", they said.<br />
+        Annie loved the rain as a kid as well.<br />
+        Maybe the rain isn't that bad after all.<br /><br />
+
+        Ben is doing better in class than ever. There is something so satisfying
+        about being able to solve difficult questions and praised by the
+        teacher, and the dopamine pushes him to study even more diligently.
+        Learning doesn't feel like a chore anymore.<br />
+        Maybe getting picked for hard questions isn't that bad after all.<br /><br />
+
+        Alice finally broke down and told her mum how she felt. More like
+        yelled. Her mum was taken aback, as she never thought she had caused her
+        daughter so much distress. They had a heart to heart conversation and
+        learnt each other's perspectives. Their bond grew stronger than ever
+        before.<br />
+        Maybe getting yelled at by your mum isn't that bad after all.<br /><br />
+
+        Maybe there is something good out of every situation after all.
+      </p>
+      <button class="option" id="option9" onclick="hideKnot9()">
+        The sun is shining again.
+      </button>
+    </div>
+
+    <div id="knot10">
+      <p class="story" id="story10">
+        I used to wonder why other people were so privileged.<br /><br />
+
+        No matter how much I tried, there is always someone prettier.<br />
+        Smarter.<br />
+        Richer.<br />
+      </p>
+      <button class="option" id="option10" onclick="hideKnot10()">
+        Better.
+      </button>
+    </div>
+
+    <div id="knot11">
+      <p class="story" id="story11">
+        There was never a moment in which I was satisfied with myself. I would
+        better myself, just to see someone better than me.<br />
+        So why does it matter?<br /><br />
+
+        It was so easy to just keep dragging myself down and feel miserable.
+        That's why I was completely offended when someone told me I could
+        just... choose to be happy with myself. What do you mean I can fix a
+        problem I have had my whole life just by... changing my mind? What do
+        you mean I can just choose not to be sad, as if I was causing my misery
+        instead of the world?<br />
+      </p>
+      <button class="option" id="option11" onclick="hideKnot11()">
+        But they were right.
+      </button>
+    </div>
+
+    <div id="knot12">
+      <p class="story" id="story12">
+        It wasn't easy to change the way I have been thinking my whole life, but
+        I forced myself to see the good in everything no matter what, because I
+        was sick of living under the rain everyday. What do I have to lose from
+        thinking positively anyway?<br /><br />
+
+        Now, I am happier and more grateful for my life than ever, and I feel
+        better about myself than ever.<br /><br />
+
+        And do you know what the best thing about all this is?
+      </p>
+      <button class="option" id="option12" onclick="hideKnot12()">
+        Everyone can do it.
+      </button>
+    </div>
+
+    <div id="knot13">
+      <p class="story" id="story13">
+
+        We, as a society, have normalised and encouraged negativity to the point
+        that we have rewired our brains to automatically find and focus on
+        something to complain about.<br />
+
+        It is infinitely easier to spiral into negativity than to do something
+        about it. There is always something good coming out of any situation,
+        something to be happy about in our lives no matter how big or small, but
+        seeing it is a choice.<br /><br />
+
+        And remember, you are always infinitely more beautiful and capable than you think you are.
+      </p>
+      <button class="option" id="option13" onclick="hideKnot13()">
+        A choice?
+      </button>
+    </div>
+
+    <div id="knot14">
+      <p class="story" id="story14">
+        It is scientifically proven that
+        <a href="https://christianespinosa.com/blog/neural-pathway-highways-and-ruts-change-your-habits/#:~:text=Repeating%20the%20same%20actions%20or,make%20a%20strong%20neural%20pathway."
+        >repeating a behaviour for at least 10000 times rewires your brain and develops new habits.</a><br>
+        No matter how heavily perpetuated negativity is in your lives, if you keep choosing to plant
+        the garden of your mind with positive thoughts, your mind will
+        automatically come to positive conclusions.<br /><br />
+
+        We see the world as we interpret it. Our interpretation comes from
+        what we focus on. The key is to see the positive in everything first.<br /><br />
+
+        Whether or not you experience happiness is within your control.<br /><br />
+
+        So what will you choose?<br />
+      </p>
+      <button class="option" id="option14">
+           Control.
+      </button>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
